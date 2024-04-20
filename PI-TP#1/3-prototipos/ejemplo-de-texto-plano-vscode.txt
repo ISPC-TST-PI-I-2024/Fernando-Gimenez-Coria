@@ -1,0 +1,3 @@
+Esto es un ejemplo de texto plano, 
+"hola mundo!"
+Ejemplo para probar la integracion de GIT a Vscode. 
