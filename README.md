@@ -5,49 +5,38 @@ Profesor: Gonzalo Vera
 
 Alumno: Fernando Gimenez Coria
 ### **Presentacion de la estructura de monorepositorio**
-TP#1 Fundamentos de circuitos electricos - 14/4/2024
+# TP#2: Fundamentos de Programación IoT y Módulos de Desarrollo Objetivos
 
-## **Resumen de repositorio actual TP#1**
+## **Resumen de repositorio actual TP#2**
 **Objetivos**
-1. Comprender los Fundamentos del IoT: Familiarizarse con losconceptos básicos del Internet de las Cosas, incluyendo su importancia, aplicaciones y el impacto potencial en la sociedad y la industria.
+- Entender y aplicar los fundamentos de la programación en Arduino y MicroPython en el contexto de IoT, enfocándose en el manejo de entradas y salidas digitales y analógicas.
 
-2. Introducción a Git y GitHub: Aprender los fundamentos de Git y GitHub como herramientas esenciales para el desarrollo colaborativo de  software, especialmente en proyectos de IoT.
+<center><img src="./rsc/visuales/platformio-icon.png" width="200"><img src="./rsc/visuales/Micropython-logo.svg.png" width="200"></center>
 
-3. Exploración de Herramientas de Desarrollo: Comenzar a utilizar herramientas de desarrollo clave como Visual Studio Code (VsCode), comprendiendo su importancia en la programación y desarrollo de proyectos.
+- Desarrollar habilidades prácticas en el uso de módulos de desarrollo y shields para ESP32, explorando diversas aplicaciones de los módulos en proyectos IoT.
+<center><img src="./rsc/visuales/PINOUT-esp32-S3-DevKit-C1.webp" width="500"></center>
 
-## **Desarrollo**
+- Implementar controladores básicos utilizando ESP32, que gestionen efectivamente entradas y salidas tanto digitales como analógicas.
 
-Parte 1: Investigación sobre IoT 
+- Familiarizarse con las herramientas de desarrollo como PlatformIO y RT-Thread en Visual Studio Code y utilizar la simulación en Wokwi para validar los programas desarrollados.
 
-1. Definición y Aplicaciones del IoT: Investigar y redactar un breve ensayo (250-300 palabras) sobre qué es el Internet de las Cosas (IoT), incluyendo al menos tres aplicaciones prácticas en diferentes industrias.
 
-2. Impacto del IoT: Reflexionar sobre cómo el IoT puede transformar la vida cotidiana y los negocios en el futuro. Identificar un problema actual que podría ser resuelto mediante la implementación de una solución basada en IoT.
 
-Parte 2: Introducción a Git y GitHub
 
-1. Creación de una Cuenta en GitHub: Si aún no tienes una, crea una cuenta en GitHub.
+# Organizacion de la estructura del repositorio
 
-2. Tutorial de Git/GitHub: Completar un tutorial básico de Git y GitHub. https://classroom.github.com/a/iAxy1U65
+1-requisitos: aqui se encuentran los requisitos propios del TP
 
-3. Informe de Aprendizaje: Escribir un resumen de lo aprendido en el tutorial.
+2-investigacion: aqui se guarda toda la documemtacion recolectada para el desarrollo del TP
 
-Parte 3: Exploración de Herramientas de Desarrollo
+3-prototipos: Aqui se guardan los archivos propios de cada prototipo requerido por el TP
 
-1. Instalación de Visual Studio Code (VsCode): Descargar e instalar VsCode desde su sitio oficial.
+4-presentacion: Aqui se almacena el informe final del practico
 
-2. Configuración Inicial: Configurar VsCode instalando las extensiones recomendadas para el desarrollo de IoT, como
-PlatformIO para desarrollo en Arduino y Python.
+## **Resumen del desarrollo**
 
-3. Primer Proyecto: Crear un archivo simple de texto plano en VsCode y usar Git para hacer commit y push del archivo a un repositorio nuevo en tu cuenta de GitHub.
+El trabajo practico propone la investigacion de plataformas para programar controladores basicos para el manejo de entradas y salidas.
 
-**Entrega:**
+Ademas, continuamos la practica y mejora de conocimientos anteriores como el manejo de Git y GitHub.
 
-• El trabajo debe ser presentado en un repositorio con estructura de monorepositorio y formato acorde.
-
-• El ensayo sobre IoT.
-
-• El resumen del tutorial de Git/GitHub.
-
-• El primer proyecto.
-
-• La fecha de entrega será el último día de la semana (14/04), antes de las 23:59 horas.
+Por ultimo dispara el aprendizaje y aplicacion de nuevas extensiones para VsCode como Platformio y micropython.

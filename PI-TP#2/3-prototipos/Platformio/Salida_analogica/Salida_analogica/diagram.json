@@ -1,0 +1,42 @@
+{
+    "version": 1,
+    "author": "Fernando gimenez",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "board-esp32-s2-devkitm-1", "id": "esp", "top": 14.89, "left": 129.37, "attrs": {} },
+      {
+        "type": "wokwi-led",
+        "id": "led1",
+        "top": 18.4,
+        "left": -85,
+        "rotate": 270,
+        "attrs": { "color": "red" }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r1",
+        "top": 13.55,
+        "left": -28.8,
+        "attrs": { "value": "1000" }
+      },
+      {
+        "type": "wokwi-potentiometer",
+        "id": "pot1",
+        "top": 94.7,
+        "left": -96.2,
+        "rotate": 270,
+        "attrs": {}
+      }
+    ],
+    "connections": [
+      [ "esp:TX", "$serialMonitor:RX", "", [] ],
+      [ "esp:RX", "$serialMonitor:TX", "", [] ],
+      [ "pot1:VCC", "esp:3V3", "red", [ "h27.7", "v-73.7" ] ],
+      [ "pot1:GND", "esp:GND.1", "black", [ "h27.7", "v2.3" ] ],
+      [ "esp:1", "pot1:SIG", "green", [ "h-124.8", "v67.2" ] ],
+      [ "r1:1", "led1:A", "green", [ "v0", "h-9.6" ] ],
+      [ "r1:2", "esp:0", "green", [ "v0", "h37.2", "v28.8" ] ],
+      [ "led1:C", "esp:GND.1", "black", [ "h96", "v182" ] ]
+    ],
+    "dependencies": {}
+  }
