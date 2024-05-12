@@ -12,26 +12,27 @@ Alumno: Fernando Gimenez Coria
 
 ## TP#3: Transductores binarios
 
-# **Resumen de repositorio actual TP#3**
+## Actualmente trabajando en 
+## TP#4: Manejo de entradas, salidas y sensores
+
+# **Resumen de repositorio actual TP#4**
 
 **Objetivos**
 
 
-- Practicas con el framework de Arduino en VsCode
+• Afianzar fundamentos de programación en C/C++
 
-- Primera aproximación a un entrenador básico
+• Afianzar fundamentos de herramientas de desarrollo ( simuladores, ide)
 
-- Practica con sensores y actuadores digitales
-
-- Primera aproximación a un controlador
+• Afianzar fundamentos de sensores y actuadores básicos.
 
 # Desarrollo
 
-Los ejercicios seran simulados en el siguiente simulador propuesto por el docente
+Los ejercicios seran diseñados y simulados en Proteus a pedido del docente
 
 
 
-<center><img src="./rsc/visuales/entrenador.png" width="800"></center>
+<center><img src="./rsc/visuales/platformio-icon.png" width="400"></center>
 
 
 # Organizacion de la estructura del repositorio
@@ -40,14 +41,16 @@ Los ejercicios seran simulados en el siguiente simulador propuesto por el docent
 
 2-investigacion: aqui se guarda toda la documemtacion recolectada para el desarrollo del TP
 
-3-prototipos: Aqui se guardan  arpeta por carpeta los 16 ejercicios propuestos en los requisitos
+3-prototipos: Aqui se guardan  carpeta por carpeta los 3 ejercicios propuestos en los requisitos
 
 4-presentacion: Aqui se almacena el informe final del practico
 
 ## **Resumen del desarrollo**
 
-El trabajo practico propone profundizar la investigacion del IDE Platformio para programar controladores basicos para el manejo de entradas y salidas.
+El trabajo practico propone dearrollar el manejo del simulador Proteus, que permite documentar el circuito esquematico, el codigo fuente y el diseño de PCB si fuera necesario (no corresponde al alcance de este curso).
 
-Ademas, continuamos la practica y mejora de conocimientos anteriores como el manejo de Git y GitHub.
+Ademas, continuamos la practica y mejora de conocimientos anteriores como el manejo de Git y GitHub, programacion C/C++ en entorno arduino.
 
-Por ultimo dispara el aprendizaje y aplicacion de librerias, interrupciones, comunicaciones basicas.
+# **Perfil del Alumno**
+
+<center><img src="./rsc/visuales/imagen CV.png" width="800"></center>
