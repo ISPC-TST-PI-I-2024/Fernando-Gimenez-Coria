@@ -1,5 +1,5 @@
 # LOGO
-<center><img src="./rsc/visuales/entrenador.png"></center>
+<center><img src="./rsc/visuales/logo.png"></center>
 
 Profesor: Gonzalo Vera
 
