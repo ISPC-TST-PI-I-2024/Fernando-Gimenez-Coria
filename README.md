@@ -53,4 +53,4 @@ Ademas, continuamos la practica y mejora de conocimientos anteriores como el man
 
 # **Perfil del Alumno**
 
-<center><img src="./rsc/visuales/imagen CV.png" width="800"></center>
+<center><img src="./rsc/visuales/Currículum FGC.png" width="800"></center>
